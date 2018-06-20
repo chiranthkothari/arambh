@@ -58,7 +58,7 @@ nav{
 	line-height: 0.8;
 	font-size: 11em;
 	font-weight: bold;
-	color: #e8e8e8;
+	color: #f0f0f0;
 	z-index: -1;
 }
 .splash-text{
@@ -79,7 +79,7 @@ nav{
 /* about styling starts here */
 .about-container{
 	text-align: center;
-	background: #e8e8e8;
+	background: #f0f0f0;
 	padding: 20px;
 	border-radius: 25px 25px 0 0;
 }
