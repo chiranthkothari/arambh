@@ -58,7 +58,10 @@ nav{
 	line-height: 0.8;
 	font-size: 11em;
 	font-weight: bold;
-	color: #f0f0f0;
+	color: linear-gradient(-45deg, #F5F5F5, #F0F0F0, #E8E8E8, #E0E0E0);
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 	z-index: -1;
 }
 .splash-text{
