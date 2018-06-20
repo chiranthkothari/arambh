@@ -63,8 +63,8 @@ nav{
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
-	-webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+/* 	-webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
 	z-index: -1;
 }
 .splash-text{
