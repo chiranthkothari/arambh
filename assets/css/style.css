@@ -98,9 +98,8 @@ nav{
 	margin-top: 10px;
 	font-size: 20px;
 }
-.padding-0{
-	padding-left: 0;
-	padding-right: 0;
+.width-adjust{
+	width:70%;
 }
 /* about styling ends here */
 
