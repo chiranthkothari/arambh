@@ -165,7 +165,9 @@ nav{
 	font-size: 22px;
 }
 .quote-contact a{
-	text-decoration: none;
+	text-decoration: underline;
 	color: white;
 }
+
+	
 /* quote styling ends here */
