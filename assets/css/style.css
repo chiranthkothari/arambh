@@ -1,0 +1,246 @@
+/*global styles*/
+body{
+	font-family: productSans;
+}
+
+/*custom font*/
+@font-face{
+	font-family: productSans;
+	src: url('../fonts/productSans.ttf');
+}
+@font-face{
+	font-family: bahnschrift;
+	src: url('../fonts/bahnschrift.ttf');
+}
+
+/*navbar styles*/
+.nav{
+	height: 100%;
+	padding: 7px;
+	background: #dcdcdc;
+}
+.logo{
+	float: left;
+}
+@media screen and (max-width: 600px) {
+	.logo{
+		width: 7%;
+	}
+}
+.brand{
+	float: left;
+	font-size: 2em;
+	margin-left: 8px;
+	font-family: bahnschrift;
+	margin-bottom: 0;
+}
+@media screen and (max-width: 600px) {
+	.brand{
+		font-size: 1.6em;
+	}
+}
+.contactBtn{
+	float: right;
+	text-align: none;
+	font-size: 15px;
+	color: black;
+	margin-top: 15px;
+}
+@media screen and (max-width: 600px) {
+	.contactBtn{
+		margin-top: 10px;
+		font-size: 15px;
+	}
+}
+.contactBtn:hover{
+	text-decoration: none;
+	color: black;
+}
+/*splash styles*/
+#splash{
+	width: 100%;
+	height: 100vh;
+	background: url('../img/splash.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media screen and (max-width: 600px){
+	#splash{
+		background-size: 180% 130%;
+	}
+}
+.main-splash{
+	display: table;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+.text-vertical-center{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.standOut{	font-size: 5em;
+	line-height: 1em;
+	color: white;
+}
+@media screen and (max-width: 600px){
+	.standOut{
+		font-size: 2em;
+	}
+}
+.beautifullyCrafted{
+	font-size: 1.2em;
+	margin-top: -15px;
+	color: white;
+}
+@media screen and (max-width: 600px){
+	.beautifullyCrafted{
+		font-size: 0.8em;
+	}
+}
+/* end of splash styles */
+
+/* about styling starts here */
+#about{
+	background: #ffffff;
+	position: relative;
+}
+.about-container{
+	text-align: center;
+	background: #ffffff;
+	padding: 20px;
+	padding-bottom: 0;
+	border-radius: 25px 25px 0 0;
+	position: relative;
+	top: -26px;
+	height: 100%;
+}
+#abt{
+	font-size: 18px;
+}
+.about-container hr{
+	width: 15%;
+	border: 1px solid #1db954;
+}
+.icons{
+	max-width: 75px;
+	height: auto;
+}
+/*@media screen and (max-width: 600px){
+	.icons{
+		max-width: 90px;
+		height: auto;
+	}
+}*/
+.details{
+	font-size: 20px;
+}
+@media screen and (max-width: 600px){
+	.details{
+		font-size: 15px;
+	}
+}
+.row-margin-bottom{
+	margin-bottom: 35px;
+}
+@media screen and (max-width: 600px){
+	.row-margin-bottom{
+		margin-bottom: 0px;
+	}
+}
+.service-description{
+	margin-top: 10px;
+	font-size: 20px;
+}
+@media screen and (max-width: 600px){
+	.service-description{
+		font-size: 17px;
+	}
+}
+.width-adjust{
+	width:82%;
+	margin-left:auto;
+	margin-right: auto;
+}
+/* about styling ends here */
+
+/* quote styling starts here */
+.quote-container{
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	color: white;
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.quote-get{
+	font-size: 35px;
+	padding-top: 40px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+@media screen and (max-width: 600px){
+	.quote-get{
+		font-size: 25px;
+	}
+}
+.quote-contact{
+	text-align: center;
+	padding-bottom: 40px;
+	font-size: 22px;
+}
+@media screen and (max-width: 600px){
+	.quote-contact{
+		font-size: 15px;
+	}
+}
+.quote-contact a{
+	text-decoration: underline;
+	color: white;
+}
+
+
+/* quote styling ends here */
+#testimonial{
+	background: #f0f0f0;
+}
