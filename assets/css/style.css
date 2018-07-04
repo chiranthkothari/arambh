@@ -14,47 +14,18 @@ body{
 }
 
 /*navbar styles*/
-.nav{
-	height: 100%;
-	padding: 7px;
-	background: #dcdcdc;
-}
-.logo{
-	float: left;
-}
-@media screen and (max-width: 600px) {
-	.logo{
-		width: 7%;
-	}
+.navbar{
+	width: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.3);
+	color: white;
+	text-align: center;
+	height: 48px;
 }
 .brand{
-	float: left;
-	font-size: 2em;
-	margin-left: 8px;
-	font-family: bahnschrift;
-	margin-bottom: 0;
-}
-@media screen and (max-width: 600px) {
-	.brand{
-		font-size: 1.6em;
-	}
-}
-.contactBtn{
-	float: right;
-	text-align: none;
-	font-size: 15px;
-	color: black;
-	margin-top: 15px;
-}
-@media screen and (max-width: 600px) {
-	.contactBtn{
-		margin-top: 10px;
-		font-size: 15px;
-	}
-}
-.contactBtn:hover{
-	text-decoration: none;
-	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20px;
 }
 /*splash styles*/
 #splash{
@@ -77,11 +48,13 @@ body{
 	text-align: center;
 }
 .text-vertical-center{
+	width: 100%;
 	display: table-cell;
-	text-align: center;
+	/*text-align: center;*/
 	vertical-align: middle;
 }
-.standOut{	font-size: 5em;
+.standOut{	
+	font-size: 5em;
 	line-height: 1em;
 	color: white;
 }
@@ -128,12 +101,6 @@ body{
 	max-width: 75px;
 	height: auto;
 }
-/*@media screen and (max-width: 600px){
-	.icons{
-		max-width: 90px;
-		height: auto;
-	}
-}*/
 .details{
 	font-size: 20px;
 }
@@ -153,6 +120,7 @@ body{
 .service-description{
 	margin-top: 10px;
 	font-size: 20px;
+	margin-bottom: 25px;
 }
 @media screen and (max-width: 600px){
 	.service-description{
@@ -241,6 +209,117 @@ body{
 
 
 /* quote styling ends here */
-#testimonial{
-	background: #f0f0f0;
+
+
+/*Form styling starts here*/
+.form-container{
+	width: 70%;
+	display: table;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	padding: 20px 20px 5px 20px;
+	box-shadow: 5px 5px 35px #C0C0C0;
+	margin-left: auto;
+	margin-right: auto;
 }
+@media screen and (max-width: 600px){
+	.form-container{
+		width: 90%;
+	}
+}
+.getintouch{
+	color: grey;
+}
+@media screen and (max-width: 600px){
+	.getintouch{
+		font-size: 22px;
+	}
+}
+.name-num{
+	border: 1px solid lightgrey;
+	margin: 8px;
+	padding: 10px;
+	width: 85%;
+}
+.form-container .message{
+	margin: 8px;
+	border: 1px solid lightgrey;
+	padding:10px 10px 75px 10px;
+	width: 85%;
+}
+
+#form-container input::placeholder{
+	color: grey;
+}
+input:focus{
+	border: 1px solid #7941c4 !important;
+}
+.sbtbtn{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	padding: 10px;
+	position: relative;
+	top: -38px;
+	background: #7941c4;
+	color: white;
+	border: none;
+}
+.contact-container{
+	display: table;
+	width: 85%;
+	text-align: left;
+	background: #7941c4;
+	height: 60%;
+	color: white;
+	padding: 15px;
+	position: relative;
+	left: -50px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+@media screen and (max-width: 600px){
+	.contact-container{
+		position: relative;
+		left: 00px;
+		margin: 10px auto 15px auto;
+	}
+}
+.actual-form{
+	position: relative;
+	left: -30px;
+}
+@media screen and (max-width: 600px){
+	.actual-form{
+	position: relative;
+	left: 0px;
+}
+}
+#form ul{
+	padding-left: 15px;
+}
+#form hr{
+	width: 10%;
+	border: 1px solid white;
+}
+/*Form styling ends here*/
+#pre-footer{
+	padding: 10px;
+	background: #19adc4;
+	color: white;
+}
+.coffee{
+	font-size: 20px;
+}
+@media screen and (max-width: 600px){
+	.coffee{
+		font-size: 15px;
+	}
+}
+.footercr{
+	font-size: 13px;
+	font-weight: 100;
+	margin-bottom: 0;
+	color: rgba(0,0,0,0.5);
+}
+/*footer styling starts here*/
